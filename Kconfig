@@ -1,0 +1,9 @@
+choice SELECT_FS
+    prompt "Select file system for module"
+    default DESTINATION_TTY
+
+config SELECT_FS_PROCFS
+    bool "procfs"
+config SELECT_FS_SYSFS
+    bool "sysfs"
+endchoice
